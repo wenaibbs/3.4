@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* 其他充值方式公共样式 cwq 16/2/17  */
+.subNav {height:50px;padding-left:50px;padding-top:20px;}
+.subNav ul {width:908px;}
+.subNav ul li {padding:0 16px;height:50px;float:left;}
+.subNav ul li a {display:inline-block;height:30px;line-height:30px;padding:0 20px;color:#666666;font-size:13px;}
+.subNav ul li.on a {background: #4e75c0;color:#fff;border-radius: 15px}
+.conTable {width:100%;}
+.conTable th {font-weight:normal;width:25%;text-align:right;font-size:14px;color:#666666;line-height:55px;vertical-align: top;padding-right:4px;}
+.conTable td {width:80%;text-align: left;line-height:18px;font-size:14px;}
+.conTable td b {color: #ef4b01;font-size: 16px;}
+.conTable .btnBox {height:65px;padding-bottom: 50px;}
+.conTable .mutilLine {line-height:normal;padding:10px 0 0 0;}
+.conTable .mutilLine .ps {padding-top:15px;display: inline-block;}
+.conTable .ps {line-height:20px;}
+.conTable .ps em {color: #fe791f;padding:0 4px;}
+.conTable .idCode span {font-size:12px;}
+.conTable .idCode img {vertical-align: middle}
+.conTable .bank {padding-top:15px;padding-right: 80px;width:604px;position:relative;}
+.conTable .bank div.qdRadio i {margin-right:5px;}
+.conTable .bank div.qdRadio .selArr {margin-right: 0;}
+.conTable .bank div.qdRadioSel {border-color:#fff!important;}
+.conTable .customMoney {width:40px;}
+.conTable span { display:inline-block;vertical-align: middle; padding:0 2px; padding-left: 8px;}
+.conTable span a {cursor:pointer; color:#FF6461;}
+.tips { border-top: 1px solid #eee; margin: 30px auto 0; padding: 20px 0 30px; width: 808px;}
+.tips .title {color:#333333; font-size:18px;line-height:40px;}
+.tips ul,.tips li {list-style: none}
+.tips ul {padding-bottom:10px;}
+.tips li {color:#5e5e5e;font-size:12px;height:25px;line-height:25px;overflow: hidden;}
+.tips li i {padding-right: 5px;}
+.tips li p {padding-left:10px;line-height:20px;padding-bottom: 5px;}
+.tips li.active {height:auto;overflow:visible }
+.tips li a {color:#5e5e5e;}
+.tips .more {padding-left:10px;color:#FF6461;font-size:12px;}
+.checkError {padding-left:20px!important;font-size:12px;color:#f00;background: url(../images/icon_error.png) no-repeat 0 50%;}
+.checkRight {padding-left:20px!important;font-size:12px;color:#999;background: url(../images/icon_right.png) no-repeat 0 50%;}
+.imgCheck {width:85px;height:32px;}
+.imgCheckBtn {font-size:12px;color:#FF6461;margin-right:5px;}
+
+/* 固定电话充值 */
+.attribution{height:90px;line-height:90px;width:100%;text-align:center;font-size:13px;color:#666;}
+.attribution a {color:#4e75c0;}
+.steps {height:65px;width:100%;background: url(../images/steps.jpg) no-repeat center center;}
+.stepDetail {padding-left: 115px;font-family: "宋体";}
+.stepDetail dl {position: relative;float:left;margin-right:3px;height:190px;width: 216px;border:1px solid #f4f4f4;background: #f1f1f1;padding:0 12px 12px;}
+.stepDetail dt {position: absolute;top:-9px;left:50%;margin-left:-10px;width:21px;height:10px;background: url(../images/stepArr.jpg) no-repeat 0 0; }
+.stepDetail dd {height:30px;line-height:30px;font-size:12px;color:#666666;}
+.stepDetail .info {position:relative;height:auto;background: #d1e4fe;border:1px solid #aacdff;padding:10px 0 10px 15px;color:#666;font-size:12px;line-height: 22px;*zoom:1;}
+.stepDetail .info i {position:absolute;right:0px;top:0px;display:block;width:16px;height:16px;background:url(../images/stepDetailClose.jpg) no-repeat 0 0;cursor: pointer;}
+.stepDetail a {color:#FF6461;}
+.stepDetail b {color:red;font-weight: normal;}
+
+/* 在线卡网吧购买 */
+.criteria {height:70px;width:100%;text-align: center;font-size:13px;}
+.criteria p {height:70px;line-height:70px;width:40px;display: inline-block;_zoom:1;*display:inline;}
+.criteria .moxlk {vertical-align:middle;margin-right:20px;display: inline-block;_zoom:1;*display:inline;}
+
+.mapArea {position:relative;width:958px;height:600px;padding:20px 0 40px;overflow: hidden;}
+.mapArea .map {position: absolute;top: 20px;left: 50%;margin-left: -360px}
+.mapInfo {position:relative;padding:20px 45px 0;width:868px;display: none;}
+.mapInfo .close {position:absolute;right:19px;top:20px;width:24px;height:24px;background: url(../images/mapTableClose.jpg) no-repeat 0 0;text-indent: -9999em}
+
+/* 查询服务-历史记录 */
+.searchHistory .criteria {height:50px;}
+.searchHistory .criteria p {height:20px;line-height: 20px}
+.searchHistory .criteria .SHTitle {width:auto;}
+.searchHistory .searchBox {padding:0 20px 20px;}
+
+.moreBank {width: 112px; height: 31px; border: 2px solid #fff; float: left; background: url(../images/morebank.png) no-repeat center 0; cursor: pointer; text-indent: -9999em;display: block;}
+.morebankList{ width: 260px;_width:270px; z-index: 4; position: absolute; border: 1px solid #ccc; border-radius: 4px; padding: 4px;right: 182px; top: 82px; display: none;background: #fff;}
+.morebankList .qdRadio {width:125px;_width:130px;}
+.morebankList .long {width:250px;}
+.discount {position: relative;z-index:5;}
+.discountimg {position: absolute; right: -210px; top: -75px; display: none; z-index: 5;}
+.pt25 {padding-top: 25px;}
+
+/* 新加的和修改的 */
+.erma img{
+  width: 200px;
+    height: 200px;  
+}
+.div_erma{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.main .div_erma:hover .payinfo{
+   opacity:1;
+}
+.main .div_erma:hover{box-shadow: 0px 0px 10px #d0dae2;}
+.paynext{
+    background-color: #4F75C0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff !important;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    background: url(../images/btn_bg.jpg) no-repeat;
+    text-align: center;
+}
+.span_next{
+    margin-right:15px
+}
+.span_blue{
+    font-size: 16px;
+    color: #00f;
+}
+.span_red{
+    font-size: 16px;
+    color: #f00;
+}
+.span_hui{
+    font-size: 16px;
+    color: #888;
+}
+.ht1{overflow: hidden; text-indent: -999em;}
+.ofh{white-space:nowrap;word-wrap:normal;word-break:normal;text-overflow:ellipsis;overflow:hidden}
+.backToTop{width:18px;line-height:1.2;padding:5px 0;background-color:#000;color:#fff;font-size:12px;text-align:center;position:fixed;margin-left:960px;_margin-left:200px;bottom:100px;cursor:pointer;opacity:.6;filter:Alpha(opacity=60);z-index:9;_position:absolute;_bottom:"auto";}
+.none {display: none}
+.layout_top{
+    overflow:hidden;
+}
+.main, .main input,.main select,.main textarea {
+    font: 12px "Microsoft yahei",Arial,Helvetica,sans-serif,"宋体";
+    color: #888;
+}
+.main button{
+    border:0px;
+    font: 16px "Microsoft yahei",Arial,Helvetica,sans-serif,"宋体";
+}
+.main a:hover {
+    text-decoration: none;
+}
+.payinfo{
+    display:block;
+    position: absolute;
+    top: 220px;
+    right: 80px;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity:0;
+}
+.payinfo img{
+    width:auto;
+    height:480px;
+}
+.ext-input{
+    float: right;
+    margin: 10px 20px auto;
+    }
